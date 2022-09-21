@@ -4,7 +4,8 @@
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": [
-      "jasmine"
+      "jasmine",
+      "webmidi"
     ]
   },
   "files": [
@@ -14,6 +15,5 @@
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts",
-    "./node_modules/@types/webmidi/index.d.ts"
   ]
 }
